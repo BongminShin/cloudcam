@@ -1,11 +1,12 @@
 import { ContactForm } from "@/components/contact-form";
 
-export default function ContactPage({
+export default async function ContactPage({
   searchParams,
 }: {
-  searchParams?: { request?: string };
+  searchParams?: Promise<{ request?: string }>;
 }) {
-  const request = searchParams?.request;
+  const params = searchParams ? await searchParams : undefined;
+  const request = params?.request;
 
   return (
     <div className="bg-white">

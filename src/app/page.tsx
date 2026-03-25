@@ -153,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* Telematics */}
-      <section className="bg-slate-50">
+      <section id="telematics" className="bg-slate-50 scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
             <div>
@@ -217,7 +217,7 @@ export default function Home() {
       </section>
 
       {/* AI in Vehicles */}
-      <section>
+      <section id="ai-in-vehicles" className="scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
           <div className="grid gap-10 lg:grid-cols-2 lg:items-start">
             <div>
@@ -359,7 +359,7 @@ export default function Home() {
       </section>
 
       {/* Download */}
-      <section>
+      <section id="download" className="scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
@@ -404,7 +404,7 @@ export default function Home() {
       </section>
 
       {/* News */}
-      <section className="bg-slate-50">
+      <section id="news" className="bg-slate-50 scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
@@ -446,7 +446,7 @@ export default function Home() {
       </section>
 
       {/* Contact CTA */}
-      <section>
+      <section id="contact" className="scroll-mt-24">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
           <div className="rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-6 sm:p-10">
             <div className="grid gap-6 lg:grid-cols-2 lg:items-center">

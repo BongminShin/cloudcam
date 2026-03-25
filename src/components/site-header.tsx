@@ -2,11 +2,11 @@ import Link from "next/link";
 
 const navItems: Array<{ href: string; label: string }> = [
   { href: "/", label: "Home" },
-  { href: "/telematics", label: "Telematics" },
-  { href: "/ai-in-vehicles", label: "AI in Vehicles" },
-  { href: "/download", label: "Download" },
-  { href: "/news", label: "News" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#telematics", label: "Telematics" },
+  { href: "/#ai-in-vehicles", label: "AI in Vehicles" },
+  { href: "/#download", label: "Download" },
+  { href: "/#news", label: "News" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function SiteHeader() {
